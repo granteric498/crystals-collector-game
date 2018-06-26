@@ -1,0 +1,78 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+    background-color: rgb(213, 86, 245);
+    margin-right: 45%;
+    padding: 5% 0 5% 0;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+
+#instructions {
+    background-color: rgb(32, 178, 88);
+    margin-right: 40%;
+    padding: 2% 1% 5% 0.5%;
+}
+
+#randomNumberCSS {
+    background-color: rgb(190, 125, 79);
+    margin-right: 60%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding: 0.05% 1% 0.05% 1%;
+}
+
+#scoreboard {
+    background-color: rgb(250, 229, 135);
+    padding: 0.05%;
+    margin: 1% 65% 1% 0%;
+}
+
+#imgs {
+    display: inline-block;
+    margin: 1% 45% 1% 0%;
+}
+
+#totals {
+    background-color: lightcoral;
+    margin-right: 60%;
+    margin-bottom: 1%;
+    padding: 0.1% 1% 0.1% 1%;
+}
+
+#totalNumberCSS {
+    background-color: lightcoral;
+    margin-right: 60%;
+    padding: 0.1% 1% 5% 1%;
+}
